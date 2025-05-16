@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+//import type { Metadata } from "next";
 import "./globals.css";
 
 /**
@@ -26,11 +26,7 @@ export default function RootLayout({
       <body className="bg-gray-100 dark:bg-gray-900 dark flex flex-col min-h-screen">
         {/* Header (Fixed Height) */}
         <header className="py-6 flex items-center justify-between relative">
-          <img
-            src=""
-            alt=""
-            className="h-8 ml-4"
-          />
+          
 
           <span className="absolute left-1/2 transform -translate-x-1/2 text-3xl font-bold text-blue-600 dark:text-blue-400">
             AryanAI Agentbot
